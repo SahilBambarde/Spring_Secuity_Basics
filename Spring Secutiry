@@ -1,0 +1,26 @@
+Generated password
+
+
+Using generated security password: f396d2de-c413-4cfe-bdb3-9c1cfb9bdf63
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+----------------------------------------------------------------------
+
+Customer
+
+Authentication Filter ---------------> Security Context
+
+Authentication Manager
+
+Authentication Provider  --------> User Details Service (Password is generated here) (UUID)
+                                   Password Encoder
+
+-------------------------------------------------------------------------
+
+JSESSIONID=B324F0A841D170E6F173FC1F648A423C; Path=/; HttpOnly;
+
+Client sends the Jsession ID
+
+-----------------------------------------------------------------------
+
